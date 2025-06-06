@@ -9,7 +9,7 @@ This guide helps you set up a lightweight and powerful C++ development environme
 - Extensions in VSCodium:
   - **C++ Runner** by `franneck94`
   - **C/C++ Debug (gdb)** by `KylinIdeTeam`
-  - **clangd** by `llvm-vs-code-extensions`
+  - **Clangd** by `llvm-vs-code-extensions`
 ---
 ## Step 1: Install MSYS2
 

@@ -19,7 +19,7 @@ This guide helps you set up a lightweight and powerful C++ development environme
    ```bash
    pacman -Syu
     ```
-⚠️ If the terminal shows errors, close the terminal, then reopen it and run **the same command** again.
+> ⚠️ If the terminal shows **errors**, close the terminal, then reopen it and run **the same command** again.
 
 3. After the initial update is complete, run the second update to finish syncing packages:
 

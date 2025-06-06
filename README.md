@@ -11,7 +11,6 @@ This guide helps you set up a lightweight and powerful C++ development environme
   - **C/C++ Debug (gdb)** by `KylinIdeTeam`
   - **clangd** by `llvm-vs-code-extensions`
 ---
----
 ## Step 1: Install MSYS2
 
 1. Download and install **exe file** from [MSYS2's website](https://www.msys2.org/)

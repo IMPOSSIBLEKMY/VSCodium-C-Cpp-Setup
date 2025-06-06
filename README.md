@@ -13,7 +13,7 @@ This guide helps you set up a lightweight and powerful C++ development environme
 ---
 ## Step 1: Install MSYS2
 
-1. Download and install **exe file** from [MSYS2's website](https://www.msys2.org/)
+1. Download and install **.exe file** from [MSYS2's website](https://www.msys2.org/)
 2. Open the **MSYS2 MSYS** terminal and run the initial update:
 
    ```bash

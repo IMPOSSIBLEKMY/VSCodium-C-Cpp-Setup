@@ -104,4 +104,3 @@ Open the **MSYS2 MSYS** terminal and run the next update:
 
    ```bash
    pacman -Syu
-    ```

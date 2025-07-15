@@ -100,7 +100,7 @@ or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
 
 ## Step 6: Updating All Packages
 
-Open the **MSYS2 MSYS** and run:
+Open the **MSYS2 MSYS** terminal and run the next update:
 
    ```bash
    pacman -Syu

@@ -97,3 +97,10 @@ or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
   - Open and **choose** the folder that contains your `.cpp` file in VSCodium.
   - Click **Start Compilation**.
   - Then click **Start Debugging**.
+
+## Step 6: Updating All Packages
+
+Open the **MSYS2 MSYS** and run:
+   ```bash
+   pacman -Syu
+    ```

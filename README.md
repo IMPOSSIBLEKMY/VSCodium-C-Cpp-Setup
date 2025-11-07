@@ -85,7 +85,7 @@ or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
 
 2. Install the **C/C++ Debug (gdb)** extension by `KylinIdeTeam`.
 
-> 📝 **Note:** These extensions handle their configurations for you — no additional configuration is needed.
+> 📝 These extensions handle their configurations for you — no additional configuration is needed.
 
 3. To **run** your `.cpp` file:
   - Open and **choose** the folder that contains your `.cpp` file in VSCodium.

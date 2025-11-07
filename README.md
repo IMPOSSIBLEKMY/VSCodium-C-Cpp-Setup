@@ -22,7 +22,6 @@ This guide helps you set up a lightweight and powerful C++ development environme
 > ⚠️ If the terminal shows **errors**, close the terminal, then reopen it and run **the same command** again.
 
 3. After the initial update is complete, run the second update to finish syncing packages:
-
    ```bash
    pacman -Su
     ```
@@ -43,7 +42,7 @@ Open the **MSYS2 MinGW64** and run:
     ```
 ## Step 3: Add to Environment PATH (Windows)
 
-To make tools like `g++`, `gdb`, and `clangd` globally accessible in terminals and editors like VSCodium:
+To make tools like `g++`, `gdb`, and `clangd` globally accessible in VSCodium terminals and editors:
 
 1. Press **Win + S** or use the **Start Menu Search**, type **Environment Variables**, and open **Edit the system environment variables**.
 
@@ -61,7 +60,7 @@ To make tools like `g++`, `gdb`, and `clangd` globally accessible in terminals a
    
 7. Click **OK** to close all windows and apply changes.
 
-8. After setting the path, open a new **Command Prompt**, **PowerShell**, or **VSCodium terminal** and run these codes to test them:
+8. After setting the path, open a new **Command Prompt**, **PowerShell**, or **VSCodium terminal** and run these codes to test them if they are accessible in VSCodium terminals and editors:
    ```bash
    g++ --version
    gdb --version

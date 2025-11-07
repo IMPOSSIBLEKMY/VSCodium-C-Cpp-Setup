@@ -80,7 +80,7 @@ or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
       "clangd.path": "C:/msys64/mingw64/bin/clangd.exe"
     }
     ```
-## Step 5: Run and Debug with Extensions in VSCodium
+## Step 5: Run and Debug with C++ Extensions in VSCodium
 
 1. Install the **C++ Runner** extension by `franneck94`.
 

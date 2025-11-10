@@ -54,7 +54,7 @@ To make tools like `g++`, `gdb`, and `clangd` globally accessible in VSCodium te
 
 5. In the **Edit Environment Variable** window, click **New**.
 
-6. Copy and paste the following path:
+6. Copy and paste the following path **(MinGW bin path)**:
    ```bash
    C:\msys64\mingw64\bin
    

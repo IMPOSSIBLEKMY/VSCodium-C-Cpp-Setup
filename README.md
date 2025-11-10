@@ -28,15 +28,15 @@ This guide helps you set up a lightweight and powerful C++ development environme
 ## Step 2: Install Required Packages
 
 Open the **MSYS2 MinGW64** and run:
-1. GCC compiler (g++)
+1. Command to install GCC compiler (g++):
    ```bash
    pacman -S mingw-w64-x86_64-gcc
     ```
-2. GDB debugger
+2. Command to install GDB debugger:
    ```bash
    pacman -S mingw-w64-x86_64-gdb
     ```
-3. Clangd and related tools
+3. Command to install Clangd and its related tools:
    ```bash
    pacman -S mingw-w64-x86_64-clang-tools-extra
     ```

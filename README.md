@@ -2,8 +2,7 @@
 
 This guide helps you set up a lightweight and powerful C++ development environment using:
 
-- [MSYS2](https://www.msys2.org/).
-- MinGW-w64 GCC for compiling and debugging C++ code.
+- [MSYS2](https://www.msys2.org/). MinGW-w64 GCC for compiling and debugging C++ code.
 - Clangd for intelligent code completion, diagnostics, and navigation.
 - [VSCodium](https://vscodium.com/).
 - Extensions in VSCodium:
@@ -46,9 +45,9 @@ To make tools like `g++`, `gdb`, and `clangd` globally accessible in VSCodium te
 
 1. Press **Win + S** or use the **Start Menu Search**, type **Environment Variables**, and open **Edit the system environment variables**.
 
-2. In the System Properties window, click the **Environment Variables...** button.
+2. In the **System Properties** window, click the **Environment Variables...** button.
 
-3. Under the **System variables** section, scroll down and find **path**.
+3. In the new **Environment Variables** window that opens, look under the **System variables** section, scroll down and find **path**.
 
 4. Select **path** and click the **Edit** button.
 
@@ -73,7 +72,7 @@ To make tools like `g++`, `gdb`, and `clangd` globally accessible in VSCodium te
 2. Open your **settings.json**
 or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
 
-3. Add the following:
+3. Add the following Clangd setting **(clangd.exe path in MinGW)**:
     ```json
     {
       "clangd.path": "C:/msys64/mingw64/bin/clangd.exe"
@@ -87,13 +86,13 @@ or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
 
 > 📝 These extensions handle their configurations for you — no additional configuration is needed.
 
-3. To **run** your `.cpp` file:
-  - Open and **choose** the folder that contains your `.cpp` file in VSCodium.
+3. To **run** your `.cpp` files:
+  - Open and **choose** the folder that contains your `.cpp` files in VSCodium.
   - Click **Start Compilation**.
   - Then click **Run Executable**.
 
-4. To **debug** your `.cpp` file:
-  - Open and **choose** the folder that contains your `.cpp` file in VSCodium.
+4. To **debug** your `.cpp` files:
+  - Open and **choose** the folder that contains your `.cpp` files in VSCodium.
   - Click **Start Compilation**.
   - Then click **Start Debugging**.
 

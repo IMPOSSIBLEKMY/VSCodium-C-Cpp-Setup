@@ -67,7 +67,7 @@ To make tools like `g++`, `gdb`, and `clangd` globally accessible in VSCodium te
     ```
 ## Step 4: Configure Clangd extension in VSCodium
 
-1. Install the **Clangd extension** in VSCodium.
+1. Install the **Clangd** extension by 'llvm-vs-code-extensions' in VSCodium.
 
 2. Open your **settings.json**
 or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
@@ -80,9 +80,9 @@ or **Ctrl+Shift+P → “Preferences: Open Settings (JSON)”**.
     ```
 ## Step 5: Run and Debug with C++ Extensions in VSCodium
 
-1. Install the **C++ Runner** extension by `franneck94`.
+1. Install the **C++ Runner** extension by `franneck94` in VSCodium.
 
-2. Install the **C/C++ Debug (gdb)** extension by `KylinIdeTeam`.
+2. Install the **C/C++ Debug (gdb)** extension by `KylinIdeTeam` in VSCodium.
 
 > 📝 These extensions handle their configurations for you — no additional configuration is needed.
 
